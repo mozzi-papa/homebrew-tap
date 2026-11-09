@@ -6,14 +6,18 @@
 
 Apple Silicon, macOS 15 이상과 Homebrew가 필요합니다. 공식 Herdr 0.9.5의 기본 로컬 서버를 먼저 준비해 주세요.
 
+처음 설치할 때는 이 배포 저장소인 `tap`을 등록해야 합니다. 아래 한 줄로 저장소 등록과 설치를 이어서 진행할 수 있습니다.
+
 ```sh
-brew install kangunmo/tap/herdr-space-dividers
+brew tap kangunmo/tap && brew install kangunmo/tap/herdr-space-dividers
 herdr-dividers
 ```
 
 Herdr 안에 있다면 기본 설정의 `Ctrl+B`, `q`로 화면을 분리한 뒤 실행해 주세요. 빌드된 실행 파일을 설치하므로 Rust·Zig·Python은 필요하지 않습니다. 기존 `herdr` 명령과 작업 서버는 교체하지 않습니다.
 
 ## 업데이트와 제거
+
+아래 업데이트 명령은 이미 설치한 패키지에 사용합니다. 처음 설치하는 경우에는 위의 설치 명령을 사용해 주세요.
 
 ```sh
 brew upgrade kangunmo/tap/herdr-space-dividers

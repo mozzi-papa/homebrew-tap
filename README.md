@@ -1,6 +1,6 @@
-# KangUnMo Homebrew Tap
+# mozzi-papa Homebrew Tap
 
-[Herdr Space Dividers](https://github.com/KangUnMo/herdr-space-dividers)의 비공식 Homebrew 패키지입니다.
+[Herdr Space Dividers](https://github.com/mozzi-papa/herdr-space-dividers)의 비공식 Homebrew 패키지입니다.
 
 ## 설치와 실행
 
@@ -9,7 +9,7 @@ Apple Silicon, macOS 15 이상과 Homebrew가 필요합니다. 공식 Herdr 0.9.
 처음 설치할 때는 이 배포 저장소인 `tap`을 등록해야 합니다. 아래 한 줄로 저장소 등록과 설치를 이어서 진행할 수 있습니다.
 
 ```sh
-brew tap kangunmo/tap && brew install kangunmo/tap/herdr-space-dividers
+brew tap mozzi-papa/tap && brew install mozzi-papa/tap/herdr-space-dividers
 herdr-dividers
 ```
 
@@ -20,7 +20,7 @@ Herdr 안에 있다면 기본 설정의 `Ctrl+B`, `q`로 화면을 분리한 뒤
 아래 업데이트 명령은 이미 설치한 패키지에 사용합니다. 처음 설치하는 경우에는 위의 설치 명령을 사용해 주세요.
 
 ```sh
-brew upgrade kangunmo/tap/herdr-space-dividers
+brew upgrade mozzi-papa/tap/herdr-space-dividers
 herdr-dividers --version
 ```
 
@@ -32,10 +32,10 @@ brew uninstall herdr-space-dividers
 
 ## 소스와 검증 범위
 
-- [기능과 사용법](https://github.com/KangUnMo/herdr-space-dividers/blob/main/docs/USAGE.md)
-- [검증 환경과 결과](https://github.com/KangUnMo/herdr-space-dividers/blob/main/docs/VERIFICATION.md)
-- [안전장치와 한계](https://github.com/KangUnMo/herdr-space-dividers/blob/main/docs/SAFETY.md)
-- [릴리스와 체크섬](https://github.com/KangUnMo/herdr-space-dividers/releases)
+- [기능과 사용법](https://github.com/mozzi-papa/herdr-space-dividers/blob/main/docs/USAGE.md)
+- [검증 환경과 결과](https://github.com/mozzi-papa/herdr-space-dividers/blob/main/docs/VERIFICATION.md)
+- [안전장치와 한계](https://github.com/mozzi-papa/herdr-space-dividers/blob/main/docs/SAFETY.md)
+- [릴리스와 체크섬](https://github.com/mozzi-papa/herdr-space-dividers/releases)
 
 formula는 버전이 고정된 GitHub Release 파일과 SHA-256을 사용합니다. 원본 소스와 빌드 도구는 공개 저장소에서 확인할 수 있습니다. Herdr 또는 Homebrew의 공식 인증·검토를 받은 패키지가 아닙니다. 실행 파일의 ad-hoc 서명은 Apple Developer ID 서명·Apple 공증이 아닙니다.
 

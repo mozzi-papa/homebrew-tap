@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: MIT
-# Copyright (c) 2026 KangUnMo
+# Copyright (c) 2026 mozzi-papa
 class HerdrSpaceDividers < Formula
   desc "Workspace dividers and grouping for Herdr (unofficial client)"
   homepage "https://github.com/mozzi-papa/herdr-space-dividers"

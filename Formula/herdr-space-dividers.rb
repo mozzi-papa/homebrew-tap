@@ -3,9 +3,9 @@
 class HerdrSpaceDividers < Formula
   desc "Workspace dividers and grouping for Herdr (unofficial client)"
   homepage "https://github.com/mozzi-papa/herdr-space-dividers"
-  url "https://github.com/mozzi-papa/herdr-space-dividers/releases/download/v0.1.1/herdr-space-dividers-v0.1.1-macos-arm64.tar.gz"
-  version "0.1.1"
-  sha256 "d6fc52ef63253214eeb08fbe4e1c89373f659e819ce19084da38564a763026c6"
+  url "https://github.com/mozzi-papa/herdr-space-dividers/releases/download/v0.1.2/herdr-space-dividers-v0.1.2-macos-arm64.tar.gz"
+  version "0.1.2"
+  sha256 "800896254ee2364726e6a47eb1fb8b14005a05cf9df036079397ceb49b597479"
   license all_of: ["MIT", "Apache-2.0"]
 
   depends_on :macos

@@ -1,6 +1,6 @@
 cask "sketchframe" do
-  version "0.1.2"
-  sha256 "0952bdcb6448a9d4349e67f7d5e1487e3b6458e139d2bdbc0f23b0a881acb161"
+  version "0.1.3"
+  sha256 "4dc3d78539f1fbf5be9ec09e483cf3b9de6c8135408d1fe9706103c90d18821b"
 
   url "https://github.com/mozzi-papa/SketchFrame/releases/download/v#{version}/sketchframe-#{version}-arm64.zip"
   name "SketchFrame"
